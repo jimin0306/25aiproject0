@@ -137,38 +137,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-import streamlit as st
-
-# MBTI별 성격 특징 및 이미지
-mbti_descriptions = {
-    "INTJ": {
-        "description": "INTJ는 독립적이고 계획적인 성격을 가진 사람들로, 미래에 대한 비전과 전략을 세우는 데 능숙합니다. 혁신적이고 논리적인 사고를 통해 문제를 해결하려 합니다.",
-        "image": "https://via.placeholder.com/150?text=INTJ",  # 실제 이미지 URL로 바꾸세요.
-        "compatible": "ENTP",
-        "incompatible": "ESFP",
-        "compatibility_reason": "ENTP는 INTJ의 혁신적인 사고와 아이디어를 받아들이고 발전시킬 수 있는 능력을 가집니다. 둘은 서로의 비전을 현실화하려고 협력할 수 있습니다.",
-        "incompatibility_reason": "ESFP는 감각적이고 즉흥적인 성격을 가지고 있어, 계획적이고 논리적인 INTJ와 충돌이 일어날 수 있습니다. ESFP는 INTJ의 깊은 사고를 이해하기 어려울 수 있습니다."
-    },
-    "INTP": {
-        "description": "INTP는 논리적이고 분석적인 성격을 가진 사람들로, 이론을 탐구하고 문제를 해결하는 데 집중합니다. 독립적으로 사고하고 자유롭게 아이디어를 펼칩니다.",
-        "image": "https://via.placeholder.com/150?text=INTP",  # 실제 이미지 URL로 바꾸세요.
-        "compatible": "ENTJ",
-        "incompatible": "ESFJ",
-        "compatibility_reason": "ENTJ는 목표 지향적이고 조직적인 성향을 가지며, INTP의 아이디어를 실현하는 데 협력할 수 있습니다. 이들은 서로 다른 능력을 결합하여 뛰어난 결과를 낼 수 있습니다.",
-        "incompatibility_reason": "ESFJ는 감정적이고 외향적인 성향을 가지며, INTP의 논리적이고 분석적인 접근을 다루는 데 어려움을 겪을 수 있습니다. 서로의 대화 방식이 충돌할 수 있습니다."
-    },
-    "ENTJ": {
-        "description": "ENTJ는 강력한 리더십을 가지고 있으며, 목표 지향적이고 전략적인 성격을 지닌 사람들입니다. 효율적인 해결책을 제시하고, 문제를 조직적으로 해결합니다.",
-        "image": "https://via.placeholder.com/150?text=ENTJ",  # 실제 이미지 URL로 바꾸세요.
-        "compatible": "INTJ",
-        "incompatible": "ISFP",
-        "compatibility_reason": "INTJ는 ENTJ와 비슷한 논리적이고 전략적인 사고를 공유합니다. 이들은 함께 미래를 계획하고 전략적으로 문제를 해결할 수 있습니다.",
-        "incompatibility_reason": "ISFP는 감성적이고 즉흥적인 성격으로, ENTJ의 목표 지향적이고 조직적인 접근과 충돌할 수 있습니다. ISFP는 ENTJ의 강력한 리더십을 부담스러워할 수 있습니다."
-    },
-    "ENTP": {
-        "description": "ENTP는 창의적이고 아이디어 중심의 사고를 하는 사람들로, 변화를 두려워하지 않으며 새로운 아이디어를 탐구하는 것을 좋아합니다. 대화를 통해 문제를 해결하고 혁신적인 해결책을 제시합니다.",
-        "image": "https://via.placeholder.com/150?text=ENTP",  # 실제 이미지 URL로 바꾸세요.
-        "compatible": "INTJ",
-        "incompatible": "ISFJ",
-        "compatibility_reason": "INTJ와 ENTP는 창의적인 사고를 통해 서로의 아이디어를 발전시키고, 논리적으로 접근하는 성향이 잘 맞습니다. 함께 혁신적인 결과를 도출할 수 있습니다.",
-        "incompatibility_reason":_
+ 
